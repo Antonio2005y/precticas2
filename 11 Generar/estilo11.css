@@ -1,0 +1,15 @@
+*{
+    transition: 2s ease all;
+}
+body{
+    text-align: center;
+    background: blueviolet;
+    color: black;
+}
+div{
+width: 100px;
+height: 100px;
+display: block;
+border: 2px solid palevioletred;
+margin: auto;
+}

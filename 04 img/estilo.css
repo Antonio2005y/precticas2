@@ -1,0 +1,10 @@
+  body{
+    background: rgb(87,0,185);
+background: linear-gradient(90deg, rgba(87,0,185,1) 0%, rgba(187,41,41,1) 50%, rgba(55,180,255,1) 100%);
+   
+  }
+  button{
+    width: 45px;
+    height: 45px;
+    margin:10px;
+  }

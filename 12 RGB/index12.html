@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../05 SweetTalert/estilo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>RGB</title>
+</head>
+
+<body id="body" onload="cambiarFondo()">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/goku blue.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            12 RGB
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+
+    <center><h1>RGB</h1><hr></center>
+    <table>
+        <tr>
+            <td>Color 1</td>
+            <td>Color 2</td>
+        </tr>
+        <tr>
+            <td>R <input type="range" id="r1" value="0" min="0" max="255"><span id="vr1">0</span></td>
+            <td>R <input type="range" id="r2" value="0" min="0" max="255"><span id="vr2">0</span></td>
+        </tr>
+
+        <tr>
+            <td>G <input type="range" id="g1" value="0" min="0" max="255"><span id="vg1">0</span></td>
+            <td>G <input type="range" id="g2" value="0" min="0" max="255"><span id="vg2">0</span></td>
+        </tr>
+
+        <tr>
+            <td>B <input type="range" id="b1" value="0" min="0" max="255"><span id="vb1">0</span></td>
+            <td>B <input type="range" id="b2" value="0" min="0" max="255"><span id="vb2">0</span></td>
+        </tr>
+        </tr>
+<tr>
+    <td id="c1"></td>
+    <td id="c2"></td>
+</tr>
+        
+
+    </table>
+<script src="app.js"></script>
+</body>
+</html>

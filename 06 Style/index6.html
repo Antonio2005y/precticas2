@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Style</title>
+    <style>
+       *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: aqua;
+    border-color: darkblue;
+    width: 1000px;
+    height: 100px;
+}
+    </style>
+</head>
+<body onload="cambiar()">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/goku blue.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            06 Style
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <h1>CAMBIAR ESTILO CON JS</h1><hr>
+    Color fondo: <input type="color" id="color" onchange="cambiar()" value="#ffffff"><br>
+    Color texto: <input type="color" id="colort" onchange="cambiar()" value="#000000"><br>
+    Figura: <select name="figura" id="figura" onchange="cambiar()">
+    <option value="1">Cuadro</option>
+    <option value="2">Circulo</option>
+    </select><br><br><br><br>
+    texto:  <input type="text" id="texto" onkeyup="cambiar()" value="Hola"><br><br>
+    ancho:  <input type="range" id="ancho" onchange="cambiar()" min="1" max="500" value="100"><span id="vancho">100</span><br>
+    alto:  <input type="range" id="alto" onchange="cambiar()" min="1" max="500" value="100"><span id="valto">100</span><br>
+    <div id="item">HOLA</div>
+    <script src="app6.js"></script>
+</body>
+</html>

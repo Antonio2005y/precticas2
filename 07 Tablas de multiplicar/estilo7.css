@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+    font-size:50px;
+    background: rgb(226, 6, 6);
+    color: Black;
+    
+    }
+    button{
+      background: rgb(0, 102, 255);
+      color: black;
+      border-color: blue;
+      width: 100px;
+      height: 70px;
+    }

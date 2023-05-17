@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo13.css">
+    <title>Document</title>
+</head>
+<body onload="update();">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/goku blue.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            13 Chicharronera
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <center>
+        <img src="13.jpg" alt="Imagen" height="200" width="200">
+        <h1>CHCHARRONERA</h1>
+    
+    
+        <label>a:</label>
+        <input type="range" id="a" min="-10" max="10" value="0" oninput="update()">
+        <label id="aLabel"></label>
+        <br>
+        <label>b:</label>
+        <input type="range" id="b" min="-10" max="10" value="0" oninput="update()">
+        <label id="bLabel"></label>
+        <br>
+        <label>c:</label>
+        <input type="range" id="c" min="-10" max="10" value="0" oninput="update()">
+        <label id="cLabel"></label>
+        <br>
+        <label>ECUACION:</label>
+        <p id="ecuacion">0x^2 + 0x + 0 = 0</p>
+        <label>Resultado 1:</label>
+        <label id="resultado1">0</label>
+        <br>
+        <label>R 2:</label>
+        <label id="resultado2">0</label>
+
+<script src="app13.js"></script>
+</body>
+</html>

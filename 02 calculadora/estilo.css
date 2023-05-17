@@ -1,0 +1,15 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  background: rgb(34,148,195);
+  background: linear-gradient(0deg, rgba(34,148,195,1) 0%, rgba(79,45,253,1) 100%);
+}
+  button{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  }
+
+  

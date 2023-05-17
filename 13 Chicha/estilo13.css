@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: aqua;
+    border-color: darkblue;
+    width: 1000px;
+    height: 100px;
+}
